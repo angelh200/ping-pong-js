@@ -138,7 +138,7 @@ class Pong {
         }
     }
     draw() {
-        this._context.fillStyle = '#000';
+        this._context.fillStyle = '#0051B5';
         this._context.fillRect(0, 0, this._canvas.width, this._canvas.height);
 
         this.drawRect(this.ball);
@@ -149,7 +149,7 @@ class Pong {
         this.drawScore();
     }
     drawRect(rect) {
-        this._context.fillStyle = '#fff';
+        this._context.fillStyle = '#FFD73B';
         this._context.fillRect(rect.left, rect.top,
             rect.size.x, rect.size.y);
     }
