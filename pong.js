@@ -71,7 +71,7 @@ class Pong {
     constructor(canvas) {
         this._canvas = canvas;
         this._context = canvas.getContext('2d');
-        this._sound = new Sound('arcade-blaster.mp3');
+        this._sound = new Sound('jetpack.mp3');
         this.ball = new Ball();
 
 
