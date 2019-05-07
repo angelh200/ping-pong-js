@@ -133,8 +133,8 @@ class Pong {
             player.top < ball.bottom && player.bottom > ball.top) {
             const len = ball.vel.len;
             ball.vel.x = -ball.vel.x;
-            ball.vel.y += 200 * (Math.random() - .5);
-            ball.vel.len = len * 1.02;
+            ball.vel.y += 300 * (Math.random() - .5);
+            ball.vel.len = len * 1.04;
         }
     }
     draw() {
